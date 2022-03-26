@@ -9,7 +9,7 @@ import ErrorBoundary from "./components/core/error-boundary/error-boundary.compo
 ReactDOM.render(
   <React.StrictMode>
     <ErrorBoundary>
-        <App />
+      <App />
     </ErrorBoundary>
   </React.StrictMode>,
   document.getElementById('root')
